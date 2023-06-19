@@ -269,7 +269,7 @@ export default function Testimonials() {
               class="btn"
               onClick={() =>
                 window.open(
-                  "https://github.com/Thiru-cse/Weather-Site-using-API"
+                  "https://github.com/Radhikasuresh/Weather-Site"
                 )
               }
             >
@@ -278,7 +278,7 @@ export default function Testimonials() {
             <button
               class="btn"
               onClick={() =>
-                window.open("https://weather-site-using-api.vercel.app/")
+                window.open("https://hilarious-capybara-1d29c8.netlify.app/")
               }
             >
               View Site <IoMdOpen />
