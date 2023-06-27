@@ -212,7 +212,7 @@ export default function Testimonials() {
           </p>
         </div>
 
-        <div class="container">
+        {/* <div class="container">
           <div class="banner-img3"></div>
           <h1 class="name" style={{ color: "rgb(255, 65, 65)" }}>
             YouTube Clone
@@ -220,7 +220,7 @@ export default function Testimonials() {
           <div className="btn-cont">
             <button
               class="btn"
-              onClick={() => window.open("https://github.com/Thiru-cse")}
+              onClick={() => window.open("")}
             >
               Github <IoLogoGithub />
             </button>
@@ -257,7 +257,7 @@ export default function Testimonials() {
               HTML, CSS, JAVASCRIPT
             </span>
           </p>
-        </div>
+        </div> */}
 
         <div class="container">
           <div class="banner-img4"></div>
