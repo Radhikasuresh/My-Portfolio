@@ -25,11 +25,7 @@ export default function Works() {
             <div class="row">
                 <h3>FullStack Web Developer</h3>
                 <p className="para">
-                  I seek to work in a competitive field and ready to accept
-                  the challenges, utilizing my skills, would like to work with a
-                  highly esteemed company which gives me a platform to use my
-                  expertise and skills for mutual growth and benefit of company
-                  and myself.
+                Highly motivated and adaptable full-stack developer, proficient in front-end and back-end technologies. Eager to contribute to innovative projects and collaborate in a dynamic team environment.
                 </p>
                 <div className="row">
                   <div className="col-lg-6">
