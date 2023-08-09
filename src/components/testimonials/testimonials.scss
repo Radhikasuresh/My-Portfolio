@@ -13,20 +13,19 @@
   }
 }
 .project {
-  font-size: 14px;
-  font-weight: 500;
-  padding: 3em;
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 2em;
+  padding-bottom:1.5em;
   margin: 1rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaa;
+  color: black;
   font-family: "Poppins", sans-serif;
   &::after {
     content: "";
     width: 120px;
-    height: 1px;
     display: inline-block;
-    background: rgb(65, 201, 255);
     margin: 4px 10px;
   }
   @include mobile {
@@ -37,7 +36,7 @@
 }
 
 .testimonials {
-  background-color: rgba(128, 128, 128, 0.356);
+  background-color:beige;
   display: flex;
   padding: 1em;
   flex-wrap: wrap;

@@ -8,10 +8,10 @@ export default function Contact() {
   return (
     <>
     <div id="about">
-        <section id="about" class="about">
+        <section class="about con" >
           <div className="contact" id="contact">
             <div className="section-titles">
-              <h2 className="cont">Reach Out To Me</h2>
+              <h2 className="h2" id="h2">Drop me a Line,Let's Connect</h2>
               <p className="sec-title">Contact</p>
               </div>
             </div>

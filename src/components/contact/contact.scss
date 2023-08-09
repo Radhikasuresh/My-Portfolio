@@ -3,16 +3,21 @@
 .contact {
   background-color: black;
   display: flex;
+  padding-left: 140px;
 
   @include mobile {
     flex-direction: column;
   }
 }
 
+.h2{
+  color:red
+}
+
 .cont {
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: 2px;
+ letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaa;
   font-family: "Poppins", sans-serif;
@@ -21,7 +26,6 @@
     width: 90px;
     height: 1px;
     display: inline-block;
-    background: rgb(65, 201, 255);
     margin: 4px 10px;
   }
   @include mobile {
@@ -35,6 +39,7 @@
   font-size: 2.5rem;
   overflow: hidden;
   font-weight: 700;
+  padding-left: 120px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #fff;
@@ -48,6 +53,7 @@
   gap: 20px;
   margin-top: -1rem;
   padding: 1em;
+  background-color: black;
   justify-content: center;
 
 .email {
@@ -95,4 +101,10 @@
     font-family: "Poppins", sans-serif;
   }
 }
+}
+.con{
+  background-color: black;
+}
+#h2{
+ color: #fff;
 }

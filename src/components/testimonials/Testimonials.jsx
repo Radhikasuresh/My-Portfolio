@@ -11,7 +11,7 @@ export default function Testimonials() {
       <div class="container">
           <div class="banner-img10"></div>
           <h1 class="name" style={{ color: "rgb(44, 73, 167)" }}>
-           Zen Class Query Resolve-Clone
+           Zen Class Query Resolving-Clone
           </h1>
           <div className="btn-cont">
             <button

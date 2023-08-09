@@ -13,17 +13,15 @@ import { IoLogoNpm, IoLogoGithub } from "react-icons/io";
 
 export default function Works() {
   return (
-    <>
-      <div id="about">
+    
         <section id="about" class="about">
           <div className="about-me container">
             <div className="section-title">
-              <h2>Me?</h2>
-              <p className="section-title">Let's get to know me</p>
+              <p className="section-title">A Brief Introduction</p>
             </div>
 
             <div class="row">
-                <h3>FullStack Web Developer</h3>
+                <h3>FullStack Web Developer/MERN Developer</h3>
                 <p className="para">
                 Highly motivated and adaptable full-stack developer, proficient in front-end and back-end technologies. Eager to contribute to innovative projects and collaborate in a dynamic team environment.
                 </p>
@@ -32,47 +30,54 @@ export default function Works() {
                     <ul>
                       <li>
                         <strong>
-                          <span style={{ color: "#18d26e" }}>➤ </span> Full Name :
+                          <span style={{ color: "rgba(236, 78, 144, 0.801)" }}>➤ </span> Full Name :
                         </strong>
-                        <span>Radhika.S</span>
+                        <span>Radhika Suresh</span>
                       </li>
                       <li>
                         <strong>
-                          <span style={{ color: "#18d26e" }}>➤ </span> Born :
+                          <span style={{ color: "rgba(236, 78, 144, 0.801)" }}>➤ </span> Date of Birth :
                         </strong>
                         <span>20 April 1999</span>
                       </li>
                       <li>
                         <strong>
-                          <span style={{ color: "#18d26e" }}>➤ </span> Department :
-                        </strong>
-                        <span>
-                           Electronics and Communication Engineering
-                        </span>
-                      </li>
-                      <li>
-                        <strong>
-                          <span style={{ color: "#18d26e" }}>➤ </span> Degree :
+                          <span style={{ color: "rgba(236, 78, 144, 0.801)" }}>➤ </span> Degree :
                         </strong>
                         <span>
                           Bachelor's of Engineering
+                           
                         </span>
                       </li>
                       <li>
                         <strong>
-                          <span style={{ color: "#18d26e" }}>➤ </span>Nationality :
+                          <span style={{ color: "rgba(236, 78, 144, 0.801)" }}>➤ </span> Department :
+                        </strong>
+                        <span>
+                          Electronics and Communication Engineering
+                        </span>
+                      </li>
+                      <li>
+                        <strong>
+                          <span style={{ color: "rgba(236, 78, 144, 0.801)" }}>➤ </span>Nationality :
                         </strong>
                         <span>Indian</span>
                       </li>
                       <li>
                         <strong>
-                          <span style={{ color: "#18d26e" }}>➤ </span>Languages :
+                          <span style={{ color: "rgba(236, 78, 144, 0.801)" }}>➤ </span>Languages :
                         </strong>
                         <span> English,Tamil</span>
                       </li>
                       <li>
                         <strong>
-                          <span style={{ color: "#18d26e" }}>➤ </span>City :
+                          <span style={{ color: "rgba(236, 78, 144, 0.801)" }}>➤ </span> Hobbies :
+                        </strong>
+                        <span>Blogging,Gardening,Learning languages</span>
+                      </li>
+                      <li>
+                        <strong>
+                          <span style={{ color: "rgba(236, 78, 144, 0.801)" }}>➤ </span>City :
                         </strong>
                         <span>Chennai,TN,India</span>
                       </li>
@@ -80,11 +85,9 @@ export default function Works() {
                   </div>
                 </div>
                 <p className="para">
-                  I Started off my self-learning journey with online tutorials
-                  Google, YouTube etc and take a step
-                  further and Enrolled in the GUVI IIT MADRAS Fullstack
-                  developer Nanodegree Program which involved extensive
-                  programming and real world projects. 
+                  I Started off my self-learning journey with online tutorials,
+                  Google, YouTube etc and took a step
+                  further and Enrolled in GUVI's comprehensive Front End Development program, driven by an insatiable curiosity for software development! Excited to dive deep into the world of web technologies, mastering HTML, CSS, JavaScript, and more.  Eager to unleash my creativity, turning design concepts into interactive and visually stunning user interfaces. 
                 </p>
             </div>
             <div className="section-title">
@@ -134,6 +137,13 @@ export default function Works() {
                 </div>
                 <div
                   className="skill-cintainer"
+                  style={{ backgroundColor: "rgba(236, 78, 144, 0.801)", gap: "3px" }}
+                >
+                  Express
+                  <SiExpress color="black" size={30} />
+                </div>
+                <div
+                  className="skill-cintainer"
                   style={{ backgroundColor: "rgb(48, 131, 32)", gap: "3px" }}
                 >
                   Mongodb
@@ -156,7 +166,6 @@ export default function Works() {
             </div>
           </div>
         </section>
-      </div>
-    </>
+  
   );
 }
