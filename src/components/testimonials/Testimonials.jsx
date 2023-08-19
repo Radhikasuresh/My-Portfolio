@@ -64,31 +64,36 @@ export default function Testimonials() {
           </p>
         </div>
         <div class="container">
-          <div class="banner-img1"></div>
-          <h1 class="name" style={{ color: "crimson" }}>
-           Epic Launcher Clone
+          <div class="banner-img25"></div>
+          <h1 class="name" style={{ color: "tomato" }}>
+          Stack-overflow Clone
           </h1>
           <div className="btn-cont">
             <button
               class="btn"
               onClick={() =>
-                window.open("https://github.com/Radhikasuresh/epiclauncher")
+                window.open("https://github.com/Radhikasuresh/stack-overflow-client")
               }
             >
               Github FE <IoLogoGithub />
             </button>
             <button
               class="btn"
-              onClick={() =>
-                window.open("https://vermillion-fox-953994.netlify.app/")
-              }
+              onClick={() => window.open("https://lovely-khapse-d83e50.netlify.app/")}
             >
               View Site <IoMdOpen />
             </button>
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://github.com/Radhikasuresh/stack-overflow-server")
+              }
+            >
+              Github BE <IoLogoGithub />
+            </button>
           </div>
           <p class="description">
-            This is Frontend website made as EpicLauncher Clone.
-           
+            This is Fullstack MERN website made it as Stack-overflow<br></br>
           </p>
           <p>
             <span
@@ -108,14 +113,126 @@ export default function Testimonials() {
               }}
             >
               {" "}
-              REACT, REDUX
+              REACT, NODE, EXPRESS JS, MONGODB
             </span>
           </p>
         </div>
-
         <div class="container">
+          <div class="banner-img26"></div>
+          <h1 class="name" style={{ color: "tomato" }}>
+          Blog-App
+          </h1>
+          <div className="btn-cont">
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://github.com/Radhikasuresh/BLog-App-FE/")
+              }
+            >
+              Github FE <IoLogoGithub />
+            </button>
+            <button
+              class="btn"
+              onClick={() => window.open("https://courageous-conkies-178d2d.netlify.app/")}
+            >
+              View Site <IoMdOpen />
+            </button>
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://github.com/Radhikasuresh/BLog-App-BE/")
+              }
+            >
+              Github BE <IoLogoGithub />
+            </button>
+          </div>
+          <p class="description">
+            This is Fullstack MERN website made it as Blog-App.<br></br>This
+            application is used for sharing thoughts, ideas, and experiences through engaging and interactive blog posts.
+          </p>
+          <p>
+            <span
+              style={{
+                color: "rgb(65, 201, 255)",
+                fontWeight: "500",
+                fontSize: "0.7rem"
+              }}
+            >
+              TECH USED :
+            </span>{" "}
+            <span
+              style={{
+                color: "#d18d0d",
+                fontWeight: "bold",
+                fontSize: "0.7rem",
+              }}
+            >
+              {" "}
+              REACT, NODE, EXPRESS JS, MONGODB
+            </span>
+          </p>
+        </div>
+       
+        
+        {/* <div class="container">
+          <div class="banner-img15"></div>
+          <h1 class="name" style={{ color: "tomato" }}>
+          Project Management
+          </h1>
+          <div className="btn-cont">
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://github.com/Radhikasuresh/Project-management")
+              }
+            >
+              Github FE <IoLogoGithub />
+            </button>
+            <button
+              class="btn"
+              onClick={() => window.open("https://peaceful-dieffenbachia-2d3188.netlify.app/")}
+            >
+              View Site <IoMdOpen />
+            </button>
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://github.com/Radhikasuresh/Project-management-FE")
+              }
+            >
+              Github BE <IoLogoGithub />
+            </button>
+          </div>
+          <p class="description">
+            This is Fullstack MERN website made it as project-management.<br></br>This
+            application is used to Post your Tasks and their description.
+          </p>
+          <p>
+            <span
+              style={{
+                color: "rgb(65, 201, 255)",
+                fontWeight: "500",
+                fontSize: "0.7rem"
+              }}
+            >
+              TECH USED :
+            </span>{" "}
+            <span
+              style={{
+                color: "#d18d0d",
+                fontWeight: "bold",
+                fontSize: "0.7rem",
+              }}
+            >
+              {" "}
+              REACT, NODE, EXPRESS JS, MONGODB, REDUX
+            </span>
+          </p>
+        </div> */}
+       
+        {/* <div class="container">
           <div class="banner-img"></div>
-          <h1 class="name" style={{ color: "rgb(65, 201, 255)" }}>
+          <h1 class="name" style={{ color: "green" }}>
            Web-Scrapper
           </h1>
           <div className="btn-cont">
@@ -160,9 +277,176 @@ export default function Testimonials() {
               REACT, NODE, EXPRESS JS
             </span>
           </p>
-        </div>
-
+        </div> */}
         <div class="container">
+          <div class="banner-img18"></div>
+          <h1 class="name" style={{ color: "rgb(65, 201, 255)" }}>
+        Equipment Rental App
+          </h1>
+          <div className="btn-cont">
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://github.com/Radhikasuresh/payment-frontend")
+              }
+            >
+              Github FE <IoLogoGithub />
+            </button>
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://equipment-rental-portal.netlify.app/")
+              }
+            >
+              View Site <IoMdOpen />
+            </button>
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://github.com/Radhikasuresh/payment-backend")
+              }
+            >
+              Github BE <IoLogoGithub />
+            </button> 
+                      </div>
+          <p class="description">
+            This is Fullstack MERN site made as Equipment Rental Portal.<br/>
+            <p>In this app, User can rent a product using Razor pay,it has admin panel.</p>
+          </p>
+          <p>
+            <span
+              style={{
+                color: "rgb(65, 201, 255)",
+                fontWeight: "500",
+                fontSize: "0.7rem"
+              }}
+            >
+              TECH USED :
+            </span>{" "}
+            <span
+              style={{
+                color: "#d18d0d",
+                fontWeight: "bold",
+                fontSize: "0.7rem",
+              }}
+            >
+              {" "}
+              REACT, NODE JS,MONGODB
+            </span>
+          </p>
+        </div>
+        <div class="container">
+          <div class="banner-img17"></div>
+          <h1 class="name" style={{ color: "rgb(65, 201, 255)" }}>
+        Chat App
+          </h1>
+          <div className="btn-cont">
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://github.com/Radhikasuresh/Chat-App-Frontend")
+              }
+            >
+              Github FE <IoLogoGithub />
+            </button>
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://extraordinary-hummingbird-8e401b.netlify.app/")
+              }
+            >
+              View Site <IoMdOpen />
+            </button>
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://github.com/Radhikasuresh/Chat-App-Backend")
+              }
+            >
+              Github BE <IoLogoGithub />
+            </button> 
+                      </div>
+          <p class="description">
+            This is Fullstack MERN website made it as a Chatting App.<br/>
+            <p>A real-time communication platform enabling interactive text-based conversations between users.</p>
+          </p>
+          <p>
+            <span
+              style={{
+                color: "rgb(65, 201, 255)",
+                fontWeight: "500",
+                fontSize: "0.7rem"
+              }}
+            >
+              TECH USED :
+            </span>{" "}
+            <span
+              style={{
+                color: "#d18d0d",
+                fontWeight: "bold",
+                fontSize: "0.7rem",
+              }}
+            >
+              {" "}
+              REACT, NODE, SOCKET.IO
+            </span>
+          </p>
+        </div>
+        {/* <div class="container">
+          <div class="banner-img1"></div>
+          <h1 class="name" style={{ color: "crimson" }}>
+           Epic Launcher Clone
+          </h1>
+          <div className="btn-cont">
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://github.com/Radhikasuresh/epiclauncher")
+              }
+            >
+              Github FE <IoLogoGithub />
+            </button>
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://vermillion-fox-953994.netlify.app/")
+              }
+            >
+              View Site <IoMdOpen />
+            </button>
+            
+          </div>
+          <p class="description">
+            This is Frontend website made as EpicLauncher Clone.
+           
+          </p>
+          <p>
+            <span
+              style={{
+                color: "rgb(65, 201, 255)",
+                fontWeight: "500",
+                fontSize: "0.7rem"
+              }}
+            >
+              TECH USED :
+            </span>{" "}
+            <span
+              style={{
+                color: "#d18d0d",
+                fontWeight: "bold",
+                fontSize: "0.7rem",
+              }}
+            >
+              {" "}
+              REACT, REDUX
+            </span>
+          </p>
+        </div> */}
+
+
+
+
+        {/* <div class="container">
           <div class="banner-img5"></div>
           <h1 class="name" style={{ color: "rgb(44, 73, 167)" }}>
            URL-Shortener
@@ -216,8 +500,8 @@ export default function Testimonials() {
               REACT, NODE, EXPRESS JS, MONGODB
             </span>
           </p>
-        </div>
-
+        </div> */}
+{/* 
         <div class="container">
           <div class="banner-img6"></div>
           <h1 class="name" style={{ color: "rgba(255, 0, 0, 0.534)" }}>
@@ -265,7 +549,7 @@ export default function Testimonials() {
             HTML,CSS,JAVASCRIPT
             </span>
           </p>
-        </div>
+        </div> */}
 
         <div class="container">
           <div class="banner-img13"></div>
