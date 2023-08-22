@@ -5,6 +5,9 @@ export default function Testimonials() {
   return (
     <>
       <div className="section-title" id="project">
+        <div className="admin">Login Credentials:<p>Email: admin123@gmail.com &nbsp; &nbsp;&nbsp;Password: admin123</p><p>
+
+</p></div>
         <h2 className="project">Projects</h2>
       </div>
       <div class="testimonials">
@@ -120,35 +123,35 @@ export default function Testimonials() {
         <div class="container">
           <div class="banner-img26"></div>
           <h1 class="name" style={{ color: "tomato" }}>
-          Blog-App
+          Pizza-Paradise
           </h1>
           <div className="btn-cont">
             <button
               class="btn"
               onClick={() =>
-                window.open("https://github.com/Radhikasuresh/BLog-App-FE/")
+                window.open("https://github.com/Radhikasuresh/Pizza-FE")
               }
             >
               Github FE <IoLogoGithub />
             </button>
             <button
               class="btn"
-              onClick={() => window.open("https://courageous-conkies-178d2d.netlify.app/")}
+              onClick={() => window.open("https://pizza-paradise-app.netlify.app/")}
             >
               View Site <IoMdOpen />
             </button>
             <button
               class="btn"
               onClick={() =>
-                window.open("https://github.com/Radhikasuresh/BLog-App-BE/")
+                window.open("https://github.com/Radhikasuresh/Pizza-BE")
               }
             >
               Github BE <IoLogoGithub />
             </button>
           </div>
           <p class="description">
-            This is Fullstack MERN website made it as Blog-App.<br></br>This
-            application is used for sharing thoughts, ideas, and experiences through engaging and interactive blog posts.
+            This is Fullstack MERN website made it as Pizza-App.<br></br>
+           A web application designed to facilitate the seamless selection, customization, and ordering of pizzas
           </p>
           <p>
             <span
