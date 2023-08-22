@@ -26,7 +26,7 @@ export default function Intro() {
             I am a <span ref={textRef}></span><br></br>
           </h3>
           <p>Passionate Software Developer, Eager to Learn and Innovate.</p>
-            <button onClick={() => window.open( 'https://drive.google.com/file/d/1l2DrtxZzhZg2szAu5DclhkY0bGFCwYZx/view' )} style={{ backgroundColor: "#0e0e0e", border: "none", color: "rgb(255, 145, 213)", margin: "3rem", padding: "8px", justifyContent: "center", alignItems: "center", alignContent: "center", display: "flex", gap: "5px", borderRadius: "7px", cursor: "pointer", fontWeight: 700 }}>View My Resume. <IoMdOpen size={22} color="rgb(65, 201, 255)"/></button>
+            <button onClick={() => window.open( 'https://drive.google.com/file/d/1py1JGn3dnoSCuqtZqx4uFyer2tAHbKlI/view' )} style={{ backgroundColor: "#0e0e0e", border: "none", color: "rgb(255, 145, 213)", margin: "3rem", padding: "8px", justifyContent: "center", alignItems: "center", alignContent: "center", display: "flex", gap: "5px", borderRadius: "7px", cursor: "pointer", fontWeight: 700 }}>View My Resume. <IoMdOpen size={22} color="rgb(65, 201, 255)"/></button>
           
             <div className="container">
             <button className="icon" onClick={() => window.open( 'https://github.com/Radhikasuresh')}>
