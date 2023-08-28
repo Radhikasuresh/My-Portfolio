@@ -9,6 +9,9 @@ export default function Testimonials() {
 
 </p></div>
         <h2 className="project">Projects</h2>
+         <div className="admin">Login Credentials:<p>Email: admin123@gmail.com &nbsp; &nbsp;&nbsp;Password: admin123</p><p>
+
+</p></div>
       </div>
       <div class="testimonials">
       <div class="container">
