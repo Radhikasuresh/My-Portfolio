@@ -20,7 +20,7 @@ export default function Intro() {
     <>
     <div className="intro" id="intro">
       <div className="left">
-          <h2>Hi There, I'm </h2>
+          <h2>Good day, let me present myself. Iam </h2>
           <h1>Radhika Suresh</h1>
           <h3>
             I am a <span ref={textRef}></span><br></br>
