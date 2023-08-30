@@ -553,6 +553,53 @@ export default function Testimonials() {
             </span>
           </p>
         </div> */}
+        <div class="container">
+          <div class="banner-img33"></div>
+          <h1 class="name" style={{ color: "green" }}>
+          To-Do App
+          </h1>
+          <div className="btn-cont">
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://github.com/Radhikasuresh/To-Do-App")
+              }
+            >
+              Github FE <IoLogoGithub />
+            </button>
+            <button
+              class="btn"
+              onClick={() => window.open("https://frabjous-gumption-737093.netlify.app/")}
+            >
+              View Site <IoMdOpen />
+            </button>
+           
+          </div>
+          <p class="description">
+            This is Frontend website made it as a To-Do App.<br></br>It is a task management tool that helps users organize and prioritize their tasks, increasing productivity and ensuring efficient completion of daily activities.
+          </p>
+          <p>
+            <span
+              style={{
+                color: "rgb(65, 201, 255)",
+                fontWeight: "500",
+                fontSize: "0.7rem"
+              }}
+            >
+              TECH USED :
+            </span>{" "}
+            <span
+              style={{
+                color: "#d18d0d",
+                fontWeight: "bold",
+                fontSize: "0.7rem",
+              }}
+            >
+              {" "}
+           REACT JS
+            </span>
+          </p>
+        </div>
 
         <div class="container">
           <div class="banner-img13"></div>
@@ -603,7 +650,7 @@ export default function Testimonials() {
         </div>
 
 
-    {/* <div class="container">
+    <div class="container">
           <div class="banner-img4"></div>
           <h1 class="name" style={{ color: "rgb(218, 181, 181)" }}>
             Weather Tracker
@@ -652,8 +699,9 @@ export default function Testimonials() {
               HTML, CSS, JAVASCRIPT
             </span>
           </p>
-        </div>*/}
+        </div>
       </div> 
     </>
+    
   );
 }

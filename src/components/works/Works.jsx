@@ -8,6 +8,7 @@ import {
   SiNodedotjs,
   SiExpress,
   SiMongodb,
+  SiTypescript,
 } from "react-icons/si";
 import { IoLogoNpm, IoLogoGithub } from "react-icons/io";
 
@@ -116,6 +117,13 @@ export default function Works() {
                 </div>
                 <div
                   className="skill-cintainer"
+                  style={{ backgroundColor: "rgb(320, 60, 0)", gap: "3px" }}
+                >
+                  TypeScript
+                  <SiTypescript color="rgb(245, 221, 7)" size={25} />
+                </div>
+                <div
+                  className="skill-cintainer"
                   style={{ backgroundColor: "rgb(87, 70, 105)", gap: "3px" }}
                 >
                   Bootstrap
@@ -130,7 +138,7 @@ export default function Works() {
                 </div>
                 <div
                   className="skill-cintainer"
-                  style={{ backgroundColor: "rgb(61, 21, 21)", gap: "3px" }}
+                  style={{ backgroundColor: "rgb(100, 21, 10)", gap: "3px" }}
                 >
                   Node
                   <SiNodedotjs color="#8f8f8f" size={30} />
