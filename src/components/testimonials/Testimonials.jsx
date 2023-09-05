@@ -6,11 +6,11 @@ export default function Testimonials() {
     <>
       <div className="section-title" id="project">
         <h2 className="project">Projects</h2>
-        <div className="admin">
+        {/* <div className="admin">
           Login Credentials:
           <p>Email: admin123@gmail.com &nbsp; &nbsp;&nbsp;Password: admin123</p>
           <p></p>
-        </div>
+        </div> */}
       </div>
       <div class="testimonials">
         <div class="container">
@@ -75,7 +75,7 @@ export default function Testimonials() {
             </span>
           </p>
         </div>
-        <div class="container">
+        {/* <div class="container">
           <div class="banner-img25"></div>
           <h1 class="name" style={{ color: "tomato" }}>
             Stack-overflow Clone
@@ -134,8 +134,8 @@ export default function Testimonials() {
               REACT, NODE, EXPRESS JS, MONGODB
             </span>
           </p>
-        </div>
-        <div class="container">
+        </div> */}
+        {/* <div class="container">
           <div class="banner-img26"></div>
           <h1 class="name" style={{ color: "tomato" }}>
             Pizza-Paradise
@@ -192,7 +192,7 @@ export default function Testimonials() {
               REACT, NODE, EXPRESS JS, MONGODB
             </span>
           </p>
-        </div>
+        </div> */}
 
         {/* <div class="container">
           <div class="banner-img15"></div>
@@ -298,7 +298,7 @@ export default function Testimonials() {
             </span>
           </p>
         </div> */}
-        <div class="container">
+        {/* <div class="container">
           <div class="banner-img18"></div>
           <h1 class="name" style={{ color: "rgb(65, 201, 255)" }}>
             Equipment Rental App
@@ -356,6 +356,57 @@ export default function Testimonials() {
             >
               {" "}
               REACT, NODE JS,MONGODB
+            </span>
+          </p>
+        </div> */}
+        <div class="container">
+          <div class="banner-img33"></div>
+          <h1 class="name" style={{ color: "green" }}>
+            To-Do App
+          </h1>
+          <div className="btn-cont">
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://github.com/Radhikasuresh/To-Do-App")
+              }
+            >
+              Github FE <IoLogoGithub />
+            </button>
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://frabjous-gumption-737093.netlify.app/")
+              }
+            >
+              View Site <IoMdOpen />
+            </button>
+          </div>
+          <p class="description">
+            This is Frontend website made it as a To-Do App.<br></br>It is a
+            task management tool that helps users organize and prioritize their
+            tasks, increasing productivity and ensuring efficient completion of
+            daily activities.
+          </p>
+          <p>
+            <span
+              style={{
+                color: "rgb(65, 201, 255)",
+                fontWeight: "500",
+                fontSize: "0.7rem",
+              }}
+            >
+              TECH USED :
+            </span>{" "}
+            <span
+              style={{
+                color: "#d18d0d",
+                fontWeight: "bold",
+                fontSize: "0.7rem",
+              }}
+            >
+              {" "}
+              REACT JS
             </span>
           </p>
         </div>
@@ -424,6 +475,8 @@ export default function Testimonials() {
             </span>
           </p>
         </div>
+
+        
         {/* <div class="container">
           <div class="banner-img1"></div>
           <h1 class="name" style={{ color: "crimson" }}>
@@ -530,7 +583,7 @@ export default function Testimonials() {
             </span>
           </p>
         </div> */}
-        {/* 
+        
         <div class="container">
           <div class="banner-img6"></div>
           <h1 class="name" style={{ color: "rgba(255, 0, 0, 0.534)" }}>
@@ -578,58 +631,8 @@ export default function Testimonials() {
             HTML,CSS,JAVASCRIPT
             </span>
           </p>
-        </div> */}
-        <div class="container">
-          <div class="banner-img33"></div>
-          <h1 class="name" style={{ color: "green" }}>
-            To-Do App
-          </h1>
-          <div className="btn-cont">
-            <button
-              class="btn"
-              onClick={() =>
-                window.open("https://github.com/Radhikasuresh/To-Do-App")
-              }
-            >
-              Github FE <IoLogoGithub />
-            </button>
-            <button
-              class="btn"
-              onClick={() =>
-                window.open("https://frabjous-gumption-737093.netlify.app/")
-              }
-            >
-              View Site <IoMdOpen />
-            </button>
-          </div>
-          <p class="description">
-            This is Frontend website made it as a To-Do App.<br></br>It is a
-            task management tool that helps users organize and prioritize their
-            tasks, increasing productivity and ensuring efficient completion of
-            daily activities.
-          </p>
-          <p>
-            <span
-              style={{
-                color: "rgb(65, 201, 255)",
-                fontWeight: "500",
-                fontSize: "0.7rem",
-              }}
-            >
-              TECH USED :
-            </span>{" "}
-            <span
-              style={{
-                color: "#d18d0d",
-                fontWeight: "bold",
-                fontSize: "0.7rem",
-              }}
-            >
-              {" "}
-              REACT JS
-            </span>
-          </p>
         </div>
+        
 
         <div class="container">
           <div class="banner-img13"></div>
