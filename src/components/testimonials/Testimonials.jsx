@@ -135,16 +135,18 @@ export default function Testimonials() {
             </span>
           </p>
         </div> */}
-        {/* <div class="container">
+        <div class="container">
           <div class="banner-img26"></div>
           <h1 class="name" style={{ color: "tomato" }}>
-            Pizza-Paradise
+            Shey-Pizza
           </h1>
           <div className="btn-cont">
             <button
               class="btn"
               onClick={() =>
-                window.open("https://github.com/Radhikasuresh/Pizza-FE")
+                window.open(
+                  "https://github.com/Radhikasuresh/shey-pizza-client"
+                )
               }
             >
               Github FE <IoLogoGithub />
@@ -152,7 +154,7 @@ export default function Testimonials() {
             <button
               class="btn"
               onClick={() =>
-                window.open("https://pizza-paradise-app.netlify.app/")
+                window.open("https://strong-flan-ab534f.netlify.app/")
               }
             >
               View Site <IoMdOpen />
@@ -160,7 +162,9 @@ export default function Testimonials() {
             <button
               class="btn"
               onClick={() =>
-                window.open("https://github.com/Radhikasuresh/Pizza-BE")
+                window.open(
+                  "https://github.com/Radhikasuresh/shey-pizza-server"
+                )
               }
             >
               Github BE <IoLogoGithub />
@@ -169,7 +173,7 @@ export default function Testimonials() {
           <p class="description">
             This is Fullstack MERN website made it as Pizza-App.<br></br>A web
             application designed to facilitate the seamless selection,
-            customization, and ordering of pizzas
+            customization, and ordering of pizzas.
           </p>
           <p>
             <span
@@ -192,7 +196,7 @@ export default function Testimonials() {
               REACT, NODE, EXPRESS JS, MONGODB
             </span>
           </p>
-        </div> */}
+        </div>
 
         {/* <div class="container">
           <div class="banner-img15"></div>
@@ -361,7 +365,7 @@ export default function Testimonials() {
         </div> */}
         <div class="container">
           <div class="banner-img33"></div>
-          <h1 class="name" style={{ color: "green" }}>
+          <h1 class="name" style={{ color: "red" }}>
             To-Do App
           </h1>
           <div className="btn-cont">
@@ -387,6 +391,57 @@ export default function Testimonials() {
             task management tool that helps users organize and prioritize their
             tasks, increasing productivity and ensuring efficient completion of
             daily activities.
+          </p>
+          <p>
+            <span
+              style={{
+                color: "rgb(65, 201, 255)",
+                fontWeight: "500",
+                fontSize: "0.7rem",
+              }}
+            >
+              TECH USED :
+            </span>{" "}
+            <span
+              style={{
+                color: "#d18d0d",
+                fontWeight: "bold",
+                fontSize: "0.7rem",
+              }}
+            >
+              {" "}
+              REACT JS
+            </span>
+          </p>
+        </div>
+        <div class="container">
+          <div class="banner-img34"></div>
+          <h1 class="name" style={{ color: "rgba(42, 147, 0, 0.932)" }}>
+            Dice-Roll App
+          </h1>
+          <div className="btn-cont">
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://github.com/Radhikasuresh/Dice-App")
+              }
+            >
+              Github FE <IoLogoGithub />
+            </button>
+            <button
+              class="btn"
+              onClick={() =>
+                window.open("https://strong-squirrel-2a698d.netlify.app/")
+              }
+            >
+              View Site <IoMdOpen />
+            </button>
+          </div>
+          <p class="description">
+            This is Frontend website made it as a Dice-Rolling App.<br></br>This
+            site allows users to simulate rolling a standard six-sided dice,
+            generating random values between 1 and 6 and displaying the outcome
+            on the screen for entertainment or gaming purposes.
           </p>
           <p>
             <span
@@ -476,7 +531,6 @@ export default function Testimonials() {
           </p>
         </div>
 
-        
         {/* <div class="container">
           <div class="banner-img1"></div>
           <h1 class="name" style={{ color: "crimson" }}>
@@ -583,11 +637,11 @@ export default function Testimonials() {
             </span>
           </p>
         </div> */}
-        
+
         <div class="container">
           <div class="banner-img6"></div>
           <h1 class="name" style={{ color: "rgba(255, 0, 0, 0.534)" }}>
-          Calculator
+            Calculator
           </h1>
           <div className="btn-cont">
             <button
@@ -600,11 +654,12 @@ export default function Testimonials() {
             </button>
             <button
               class="btn"
-              onClick={() => window.open("https://strong-moxie-d94bee.netlify.app/")}
+              onClick={() =>
+                window.open("https://strong-moxie-d94bee.netlify.app/")
+              }
             >
               View Site <IoMdOpen />
             </button>
-           
           </div>
           <p class="description">
             This is Frontend website made it as a Calculator.<br></br>This
@@ -615,7 +670,7 @@ export default function Testimonials() {
               style={{
                 color: "rgb(65, 201, 255)",
                 fontWeight: "500",
-                fontSize: "0.7rem"
+                fontSize: "0.7rem",
               }}
             >
               TECH USED :
@@ -628,11 +683,10 @@ export default function Testimonials() {
               }}
             >
               {" "}
-            HTML,CSS,JAVASCRIPT
+              HTML,CSS,JAVASCRIPT
             </span>
           </p>
         </div>
-        
 
         <div class="container">
           <div class="banner-img13"></div>
@@ -709,8 +763,8 @@ export default function Testimonials() {
             </button>
           </div>
           <p class="description">
-            This website is a Weather Tracker.<br></br>This site is used
-            to know your Current Location Weather.
+            This website is a Weather Tracker.<br></br>This site is used to know
+            your Current Location Weather.
           </p>
           <p>
             <span
